@@ -12,24 +12,30 @@
 
 ---
 
-## 🛠️ Cấu trúc thư mục
+## 📂 Cấu trúc thư mục
 mini-realtime-chat/
-│── backend/ # Server Express + Socket.io
-│ │── server.js
-│ │── package.json
-│ │── Dockerfile
 │
-│── frontend/ # Client React + Vite + Tailwind
-│ │── src/
-│ │── package.json
-│ │── vite.config.js
-│ │── tailwind.config.js
-│ │── Dockerfile
+├── backend/ # Server Express + Socket.io
+│ ├── server.js
+│ ├── package.json
+│ └── Dockerfile
 │
-│── docker-compose.yml # Compose để chạy cả frontend & backend
-│── .gitignore
-│── README.md
-
+├── frontend/ # Client React + Vite + Tailwind
+│ ├── src/
+│ │ ├── main.jsx
+│ │ ├── App.jsx
+│ │ ├── index.css
+│ │ └── components/
+│ │ └── ChatBox.jsx
+│ ├── package.json
+│ ├── vite.config.js
+│ ├── tailwind.config.js
+│ ├── postcss.config.js
+│ └── index.html
+│
+├── docker-compose.yml # Compose để chạy cả frontend & backend
+├── .gitignore
+└── README.md
 
 ---
 
