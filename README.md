@@ -13,6 +13,8 @@
 ---
 
 ## 📂 Cấu trúc thư mục
+## 📂 Cấu trúc thư mục
+
 mini-realtime-chat/
 │
 ├── backend/ # Server Express + Socket.io
@@ -36,6 +38,9 @@ mini-realtime-chat/
 ├── docker-compose.yml # Compose để chạy cả frontend & backend
 ├── .gitignore
 └── README.md
+
+Sao chép mã
+⚠️ Lưu ý:
 
 ---
 
