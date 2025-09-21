@@ -13,34 +13,25 @@
 ---
 
 ## 📂 Cấu trúc thư mục
-## 📂 Cấu trúc thư mục
+- 📦 backend  
+  - server.js  
+  - package.json  
+  - Dockerfile  
+- 🎨 frontend  
+  - src/  
+    - main.jsx  
+    - App.jsx  
+    - index.css  
+    - components/ChatBox.jsx  
+  - package.json  
+  - vite.config.js  
+  - tailwind.config.js  
+  - postcss.config.js  
+  - index.html  
+- ⚙️ docker-compose.yml  
+- 📝 README.md  
+- 🔒 .gitignore  
 
-mini-realtime-chat/
-│
-├── backend/ # Server Express + Socket.io
-│ ├── server.js
-│ ├── package.json
-│ └── Dockerfile
-│
-├── frontend/ # Client React + Vite + Tailwind
-│ ├── src/
-│ │ ├── main.jsx
-│ │ ├── App.jsx
-│ │ ├── index.css
-│ │ └── components/
-│ │ └── ChatBox.jsx
-│ ├── package.json
-│ ├── vite.config.js
-│ ├── tailwind.config.js
-│ ├── postcss.config.js
-│ └── index.html
-│
-├── docker-compose.yml # Compose để chạy cả frontend & backend
-├── .gitignore
-└── README.md
-
-Sao chép mã
-⚠️ Lưu ý:
 
 ---
 
